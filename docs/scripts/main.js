@@ -7,14 +7,14 @@ import view from './view.js';
  */
 function assignEventListeners(){
     document.getElementById('gen-orange')
-    .addEventListener('click', function(){
-        view.changeToOrange();
-    })
+        .addEventListener('click', function(){
+            view.changeToOrange();
+        })
 
     document.getElementById('gen-violet')
-    .addEventListener('click', function(){
-        view.changeToViolet();
-    })
+        .addEventListener('click', function(){
+            view.changeToViolet();
+        })
 }
 
 

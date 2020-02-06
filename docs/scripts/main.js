@@ -11,7 +11,7 @@ function assignEventListeners(){
             view.changeToOrange();
         })
 
-    document.getElementById('gen-violet')
+    document.getElementById('gen-purple')
         .addEventListener('click', function(){
             view.changeToViolet();
         })
